@@ -1,0 +1,333 @@
+@media screen and (max-width:1240px){
+    .section2_2 {
+        display: none;
+    }
+    .section2_1 {
+        width: 45%;
+    }
+    .section2_3 {
+        width: 45%;
+        float: right;
+    }
+    .ul {
+      padding: 0px 15px 0px 0px;
+    }
+    .bar {
+        float: right;
+    }
+    .ul li a.active {
+        margin-left: 0%;
+    }
+    .ul li a {
+        padding: 15px;
+        margin: 20px 2px;
+    }
+    #bar {
+        width: 77%;
+    }
+}
+@media screen and (min-width:1240px) {
+    .ul {
+        padding: 0px 25px 0px 25px;
+    }
+    .ul li a.active {
+        margin-left: 5%;
+    }
+    .ul li a {
+        padding: 15px;
+        margin: 20px 0.95%;
+    }
+}
+@media screen and (max-width: 1056px) {
+    .top {
+        text-align: center;
+    }
+    .icon {
+        margin-top: 6px;
+        float: left;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .ul li a {
+        width: 100%;
+        padding: 15px;
+        margin-top: 0px;
+        margin-bottom: 3px;
+    }
+    .ul {
+        padding: 0px 4px 0px 4px;
+    }
+    .ul span#bar{
+        width: 100%;
+        background-color: white;
+        display: none;
+    }
+    .ul .bar {
+        display: block;
+        margin-right: -5px;
+        padding: 15px;
+        margin: 20px 20px;
+        float: right;
+    }
+    #nom {
+        margin-left: 5px;
+        
+    }
+    .katta {
+        font-size: 2em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+    .kichik {
+        font-size: 1.2em;
+    }
+    .center {
+        width: 75%;
+    }
+    .al,.ar{
+        margin: 3px;
+    }
+    .one {
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 530px;
+        position: absolute;
+        z-index: 1;
+    }
+    .about-a {
+        width:100%;
+        float: left;
+        margin-bottom: 30px;
+    }
+    .about-b {
+        width: 100%;
+        float: right;
+        margin-top: 30px;
+    }
+    .about,.who {
+        width: 86%;
+        margin: 50px 0;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    .about {
+        margin-top: 100px;
+    }
+    .who {
+        margin-top: 60px;
+    }
+    .son12 {
+        width: 100%;
+        
+    }
+    
+    .service {
+        width: 75%;
+    }
+    .servics1 {
+        width: 210%;
+    }
+    .img,.img2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .son1 {
+        width: 50%;
+        margin-bottom: 35px;
+    }
+    .section_1{
+        width: 100%;
+    }
+    .section_2 {
+        display: none;
+    }
+    .section2_1,.section2_3 {
+        width: 50%;
+        float: none;
+        position: relative;
+        
+        float: left;
+    }
+    .section2_text2 {
+        width: 90%;
+    }
+    .footer1 {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .footer1:nth-child(3) {
+        padding-bottom: 0px;
+    }
+    .footer1:nth-child(1),.footer1:nth-child(3){
+        text-align: center;
+    }
+}
+@media screen and (max-width:900px) {
+    .section2_in {
+        width: 90%;
+    }
+    .section2_1,.section2_3 {
+        padding: 0px;
+    }
+    .section2_1 {
+        padding-right: 30px;
+    }
+}
+@media screen and (min-width:1056px) {
+    
+    .boshi {
+        width: 100%;
+        height: 640px;
+    }
+    .katta {
+        font-size: 4em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: white;
+        
+    }
+    .kichik {
+        font-size: 1.5em;
+    }
+    .center {
+        width: 88%;
+    }
+    .al,.ar {
+        margin: 10px;
+    }
+    .one {
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 640px;
+        position: absolute;
+        z-index: 1;
+    }    
+    .about-a {
+        width:48%;
+        float: left;
+    }
+    .about-b {
+        width: 48%;
+        float: right;
+    }
+    .about {
+        width: 84%;
+        margin: 100px 0 0px;
+        
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    .abo {
+        font-size: 15px;
+        letter-spacing: 0.5px;
+    }
+    .who {
+        width: 84%;
+        margin: 75px 0px 0px;
+        
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    .img,.img2 {
+        width: 48%;
+    }
+    .son12 {
+        max-width: 1240px;
+        
+    }
+    .service {
+        width: 82%;
+        max-width: 1200px;
+    }
+    .testiminal_in {
+        transition: transform 1.5s ease-in-out;
+    }
+    #video,#imagezoom {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 800px) {
+    .center {
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .welcome2,.ser12 .abo,.testiminal1_text {
+        width: 100%;
+        text-align: center;
+    }
+    .section2_1,.section2_3 {
+        width: 100%;
+    }
+    .testiminal1_text {
+        width: 80%;
+    }
+    .testiminal1_footer {
+        display: flex;
+        justify-content: center;
+    }
+    .section2_in {
+        width: 84%;
+    }
+    .section2_1,.section2_3 {
+        padding: 15px;
+    }
+    .son1 {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width:500px) {
+    .servics1 {
+        width: 450%;
+    }
+    .servics {
+        overflow: hidden;
+    }
+    .service {
+        width: 65%;
+    }
+    
+    .al,.ar {
+        width: 12%;
+        height: 12vw;
+    }
+    .aral::after {
+        width: 100%;
+        height: 12vw;
+    }
+    .btn .btn1 {
+        float: left;
+        margin-bottom: 10px;        
+    }
+    .section_text1,.section_text2,.section_text3 {
+        text-align: center;
+    }
+    .section_text3,.section_btn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:400px) {
+    .section_right_texts,.section_left_texts {
+        width: 100%;
+    }
+    .section_right_image,.section_left_image {
+        position: relative;
+        left: 50%;
+        top: 10px;
+        transform: translate(-50%,0);
+        margin-bottom: 10px;
+    }
+    .section_right_text1,.section_left_text2,.section_right_text2,.section_left_text1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
